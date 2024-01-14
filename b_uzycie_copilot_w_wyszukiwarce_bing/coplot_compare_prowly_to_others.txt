@@ -1,0 +1,6 @@
+Given I am on the bing.com homepage
+When I click on the copilot icon in the browser sidebar
+And I type "How does Prowly media monitoring module compare with other similar tools?" in the chat box
+And I press enter
+Then I should see a response from copilot with a comparison table or chart
+And I should see links to [Prowly media monitoring website](https://prowly.com/media-monitoring/) and other relevant sources for more information

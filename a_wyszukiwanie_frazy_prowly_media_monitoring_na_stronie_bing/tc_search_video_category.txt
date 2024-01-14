@@ -1,0 +1,7 @@
+Given I am on the bing.com homepage
+When I enter "Prowly Media Monitoring" in the search box
+And I click on the search button
+Then I should see the results page with the phrase highlighted
+When I click on the video tab
+Then I should see the results filtered by video category
+And I should see the video thumbnails and titles related to the phrase

@@ -1,0 +1,7 @@
+Given I am on the bing.com homepage
+When I enter "Prowly Media Monitoring" in the search box
+And I click on the search button
+Then I should see the results page with the phrase highlighted
+When I click on the news tab
+Then I should see the results filtered by news category
+And I should see the news headlines and sources related to the phrase

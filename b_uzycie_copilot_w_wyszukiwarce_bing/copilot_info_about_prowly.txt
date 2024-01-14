@@ -1,0 +1,6 @@
+Given I am on the bing.com homepage
+When I click on the copilot icon in the browser sidebar
+And I type "What are the features of Prowly media monitoring module?" in the chat box
+And I press enter
+Then I should see a response from copilot with a summary of the features
+And I should see a link to [Prowly media monitoring website](https://prowly.com/media-monitoring/) for more details
